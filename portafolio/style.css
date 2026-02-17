@@ -1,5 +1,5 @@
 body{
-    background-color: slategrey;
+    background-image: url(assets/aja.png);
     color: lightsteelblue;
     font-size: 30px;
 }
@@ -21,6 +21,23 @@ div{
     margin-left: 50px;
 }
 
- img{
+ .imgRound{
         border-radius: 20%;
+    }
+    .imgSpace{
+        padding: 5px;
+    }
+
+    .fotos{
+        background-color: darkorchid;
+        background-color: slategrey;
+        border-style: none;
+        margin: 0px;
+        padding: 10px;
+        display: flex;
+        justify-content: right;
+    }
+
+    a{
+        color:maroon;
     }
