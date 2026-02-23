@@ -8,21 +8,23 @@ h1{
     color: cornflowerblue;
 }
 p{
-    color: #0000FF;
+    color:black;
 }
 
 div{
     background-color: darkcyan;
-    padding: 20px;
+    padding: 5px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
     border-color:darkslateblue;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
  .imgRound{
-        border-radius: 20%;
+        border-radius: 40%;
+        transform: rotate(90deg);
+        
     }
     .imgSpace{
         padding: 5px;
@@ -35,7 +37,7 @@ div{
         margin: 0px;
         padding: 10px;
         display: flex;
-        justify-content: right;
+        justify-content: left;
     }
 
     a{
