@@ -1,17 +1,37 @@
 body{
-    background-image: url(assets/aja.png);
+    background-color:black;
     color: lightsteelblue;
     font-size: 30px;
+}
+
+header{
+    background-color: blueviolet;
+    font-size: 30px;
+    padding: 10px;
+}
+
+nav{
+    background-color:darkred;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: blue;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: right;
 }
 
 h1{
     color: cornflowerblue;
 }
 p{
-    color:black;
+    color:aliceblue;
 }
 
-div{
+div2{
     background-color: darkcyan;
     padding: 5px;
     border-style: solid;
@@ -23,7 +43,8 @@ div{
 
  .imgRound{
         border-radius: 40%;
-        transform: rotate(90deg);
+        text-align: center;
+        justify-content: center;
         
     }
     .imgSpace{
@@ -41,5 +62,42 @@ div{
     }
 
     a{
-        color:maroon;
+        color:aliceblue;
+    }
+
+    .container div{
+        background-color: #0000;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .container{
+        display: flex;
+        background-color: black;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    @media (max-width: 600px) {
+        .container{
+            flex-direction: column;
+        }
+    }
+
+    .fa-youtube{
+        color:darkred;
+        width: 60px;
+    }
+
+    .fa-instagram{
+        color: blueviolet;
+        width: 60px;
+    }
+
+    .redes{
+        background-color:black;
+        padding: 10px;
     }
